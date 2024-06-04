@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.Common.Mongo", "MSA.Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.Common.PostgresMassTransit", "MSA.Common.PostgresMassTransit\MSA.Common.PostgresMassTransit.csproj", "{42EEBB97-0F63-4A89-A918-28A228BDAA02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.ProductService", "MSA.ProductService\MSA.ProductService.csproj", "{83628629-69F1-4B7C-AA37-428F1B13EEC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.OrderService", "MSA.OrderService\MSA.OrderService.csproj", "{AA7AB057-79FC-40B9-9B56-9C50AE22910B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{42EEBB97-0F63-4A89-A918-28A228BDAA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42EEBB97-0F63-4A89-A918-28A228BDAA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42EEBB97-0F63-4A89-A918-28A228BDAA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83628629-69F1-4B7C-AA37-428F1B13EEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83628629-69F1-4B7C-AA37-428F1B13EEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83628629-69F1-4B7C-AA37-428F1B13EEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83628629-69F1-4B7C-AA37-428F1B13EEC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7AB057-79FC-40B9-9B56-9C50AE22910B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7AB057-79FC-40B9-9B56-9C50AE22910B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7AB057-79FC-40B9-9B56-9C50AE22910B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7AB057-79FC-40B9-9B56-9C50AE22910B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
