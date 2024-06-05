@@ -2,6 +2,7 @@ using MSA.OrderService.Domain;
 using MSA.OrderService.Infrastructure.Data;
 using MSA.Common.Contracts.Settings;
 using MSA.Common.PostgresMassTransit.PostgresDB;
+using MSA.OrderService.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,9 @@ builder.Services
     .AddPostgresRepositories<MainDbContext, Order>()
     .AddPostgresUnitofWork<MainDbContext>();
 
+builder.Services.AddHttpClient<IProductService, ProductService>(cfg => {
+     cfg.BaseAddress = new Uri("https://localhost:5002");
+});
 builder.Services.AddControllers(opt => {
     opt.SuppressAsyncSuffixInActionNames = false;
 });
