@@ -4,6 +4,7 @@ using MSA.ProductService.Entities;
 using MSA.Common.Contracts.Domain;
 using MassTransit;
 using MSA.Common.Contracts.Domain.Events.Product;
+
 namespace MSA.ProductService.Controllers
 {
     [ApiController]
