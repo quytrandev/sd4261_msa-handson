@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.ProductService", "MSA.P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.OrderService", "MSA.OrderService\MSA.OrderService.csproj", "{AA7AB057-79FC-40B9-9B56-9C50AE22910B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.IdentityServer", "MSA.IdentityServer\MSA.IdentityServer.csproj", "{8D9BB8DD-E3BF-4571-B717-FF53B651E738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.Common.Security", "MSA.Common.Security\MSA.Common.Security.csproj", "{E213C0BB-B2D1-4DA6-B2B2-F58A2D73E245}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{AA7AB057-79FC-40B9-9B56-9C50AE22910B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA7AB057-79FC-40B9-9B56-9C50AE22910B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA7AB057-79FC-40B9-9B56-9C50AE22910B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9BB8DD-E3BF-4571-B717-FF53B651E738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9BB8DD-E3BF-4571-B717-FF53B651E738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9BB8DD-E3BF-4571-B717-FF53B651E738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9BB8DD-E3BF-4571-B717-FF53B651E738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E213C0BB-B2D1-4DA6-B2B2-F58A2D73E245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E213C0BB-B2D1-4DA6-B2B2-F58A2D73E245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E213C0BB-B2D1-4DA6-B2B2-F58A2D73E245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E213C0BB-B2D1-4DA6-B2B2-F58A2D73E245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
